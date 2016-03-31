@@ -1,0 +1,31 @@
+<div class="container app-container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-5">
+                <img src="images/olivet.png" alt="Olivet Logo" class="img-responsive center-block"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <h1 class="page-header text-center">Chapel Bingo*</h1>
+        </div>
+
+        <div class="row">
+            <small class="text-right">* Not an official University application</small>
+        </div>
+    </div>
+
+    <div>
+        <p><strong>Current Users: </strong>{{activeCount}}</p>
+    </div>
+
+    <div class="row">
+        <form>
+            {{input type="text" value=testing class="form-control"}}
+
+            <button class="btn btn-default btn-sm" type="submit" {{action 'toGame'}}>
+                Testing
+            </button>
+        </form>
+    </div>
+</div>

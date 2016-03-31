@@ -44,6 +44,7 @@
     "ember-route-action-helper": "0.3.0",
     "ember-suave": "2.0.1",
     "emberfire": "1.6.6",
+    "liquid-fire": "0.23.0",
     "loader.js": "^4.0.1",
     "torii": "0.6.1"
   }
